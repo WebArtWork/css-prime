@@ -1,6 +1,6 @@
-import type { MessageTokenSections } from '@primeuix/themes/types/message';
+import type { MessageTokenSections } from '@wawjs/css-prime-themes/types/message';
 
-export * from '@primeuix/themes/types/message';
+export * from '@wawjs/css-prime-themes/types/message';
 
 declare const root: MessageTokenSections.Root;
 declare const content: MessageTokenSections.Content;

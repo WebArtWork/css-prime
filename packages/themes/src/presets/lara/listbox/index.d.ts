@@ -1,6 +1,6 @@
-import type { ListboxTokenSections } from '@primeuix/themes/types/listbox';
+import type { ListboxTokenSections } from '@wawjs/css-prime-themes/types/listbox';
 
-export * from '@primeuix/themes/types/listbox';
+export * from '@wawjs/css-prime-themes/types/listbox';
 
 declare const root: ListboxTokenSections.Root;
 declare const list: ListboxTokenSections.List;

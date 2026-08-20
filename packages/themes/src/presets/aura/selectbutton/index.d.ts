@@ -1,6 +1,6 @@
-import type { SelectButtonTokenSections } from '@primeuix/themes/types/selectbutton';
+import type { SelectButtonTokenSections } from '@wawjs/css-prime-themes/types/selectbutton';
 
-export * from '@primeuix/themes/types/selectbutton';
+export * from '@wawjs/css-prime-themes/types/selectbutton';
 
 declare const root: SelectButtonTokenSections.Root;
 declare const colorScheme: SelectButtonTokenSections.ColorScheme;

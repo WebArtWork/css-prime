@@ -1,4 +1,4 @@
-import type { CheckboxDesignTokens, CheckboxTokenSections } from '@primeuix/themes/types/checkbox';
+import type { CheckboxDesignTokens, CheckboxTokenSections } from '@wawjs/css-prime-themes/types/checkbox';
 
 export const root: CheckboxTokenSections.Root = {
     borderRadius: '{border.radius.sm}',

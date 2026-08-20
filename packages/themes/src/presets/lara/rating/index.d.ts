@@ -1,6 +1,6 @@
-import type { RatingTokenSections } from '@primeuix/themes/types/rating';
+import type { RatingTokenSections } from '@wawjs/css-prime-themes/types/rating';
 
-export * from '@primeuix/themes/types/rating';
+export * from '@wawjs/css-prime-themes/types/rating';
 
 declare const root: RatingTokenSections.Root;
 declare const icon: RatingTokenSections.Icon;

@@ -1,1 +1,1 @@
-export * from '@primeuix/headless/listbox';
+export * from '@wawjs/css-prime-headless/listbox';

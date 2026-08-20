@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { MenubarTokenSections } from '@primeuix/themes/types/menubar';
+import type { StyleOptions } from '@wawjs/css-prime-styled';
+import type { MenubarTokenSections } from '@wawjs/css-prime-themes/types/menubar';
 
-export * from '@primeuix/themes/types/menubar';
+export * from '@wawjs/css-prime-themes/types/menubar';
 
 declare const root: MenubarTokenSections.Root;
 declare const baseItem: MenubarTokenSections.BaseItem;

@@ -1,4 +1,4 @@
-import type { OverlayBadgeDesignTokens, OverlayBadgeTokenSections } from '@primeuix/themes/types/overlaybadge';
+import type { OverlayBadgeDesignTokens, OverlayBadgeTokenSections } from '@wawjs/css-prime-themes/types/overlaybadge';
 
 export const root: OverlayBadgeTokenSections.Root = {
     outline: {

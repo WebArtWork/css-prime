@@ -1,6 +1,6 @@
-import type { InlineMessageTokenSections } from '@primeuix/themes/types/inlinemessage';
+import type { InlineMessageTokenSections } from '@wawjs/css-prime-themes/types/inlinemessage';
 
-export * from '@primeuix/themes/types/inlinemessage';
+export * from '@wawjs/css-prime-themes/types/inlinemessage';
 
 declare const root: InlineMessageTokenSections.Root;
 declare const text: InlineMessageTokenSections.Text;

@@ -1,4 +1,4 @@
-import type { PaginatorDesignTokens, PaginatorTokenSections } from '@primeuix/themes/types/paginator';
+import type { PaginatorDesignTokens, PaginatorTokenSections } from '@wawjs/css-prime-themes/types/paginator';
 
 export const root: PaginatorTokenSections.Root = {
     padding: '0.5rem 1rem',

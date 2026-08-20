@@ -1,4 +1,4 @@
-import type { Preset } from '@primeuix/themes/types';
+import type { Preset } from '@wawjs/css-prime-themes/types';
 import type { NoraBaseDesignTokens } from './base/index.d';
 
 /**

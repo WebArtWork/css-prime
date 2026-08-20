@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { DatePickerTokenSections } from '@primeuix/themes/types/datepicker';
+import type { StyleOptions } from '@wawjs/css-prime-styled';
+import type { DatePickerTokenSections } from '@wawjs/css-prime-themes/types/datepicker';
 
-export * from '@primeuix/themes/types/datepicker';
+export * from '@wawjs/css-prime-themes/types/datepicker';
 
 declare const root: DatePickerTokenSections.Root;
 declare const panel: DatePickerTokenSections.Panel;

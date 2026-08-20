@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/motion",
+    "name": "@wawjs/css-prime-motion",
     "version": "0.0.11",
     "author": "Web Art Work",
     "description": "Motion utilities for PrimeUI Libraries",
@@ -36,7 +36,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@wawjs/css-prime-utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

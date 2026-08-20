@@ -1,6 +1,6 @@
-import type { PasswordTokenSections } from '@primeuix/themes/types/password';
+import type { PasswordTokenSections } from '@wawjs/css-prime-themes/types/password';
 
-export * from '@primeuix/themes/types/password';
+export * from '@wawjs/css-prime-themes/types/password';
 
 declare const meter: PasswordTokenSections.Meter;
 declare const icon: PasswordTokenSections.Icon;

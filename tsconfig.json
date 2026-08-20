@@ -30,15 +30,15 @@
     "moduleResolution": "bundler",                       /* (UPDATED) Specify how TypeScript looks up a file from a given module specifier. */
     "baseUrl": "./",                                     /* (UPDATED) Specify the base directory to resolve non-relative module names. */
     "paths": {                                           /* (UPDATED) Specify a set of entries that re-map imports to additional lookup locations. */
-        "@primeuix/forms/*": ["./packages/forms/src/*"],
-        "@primeuix/headless/*": ["./packages/headless/src/*"],
-        "@primeuix/locale/*": ["./packages/locale/src/*"],
-        "@primeuix/mcp/*": ["./packages/mcp/src/*"],
-        "@primeuix/motion/*": ["./packages/motion/src/*", "./packages/motion/types/*"],
-        "@primeuix/styled/*": ["./packages/styled/src/*"],
-        "@primeuix/utils/*": ["./packages/utils/src/*"],
-        "@primeuix/styles/*": ["./packages/styles/src/*"],
-        "@primeuix/themes/*": ["./packages/themes/src/*", "./packages/themes/src/presets/*", "./packages/themes/types/*"],
+        "@wawjs/css-prime-forms/*": ["./packages/forms/src/*"],
+        "@wawjs/css-prime-headless/*": ["./packages/headless/src/*"],
+        "@wawjs/css-prime-locale/*": ["./packages/locale/src/*"],
+        "@wawjs/css-prime-mcp/*": ["./packages/mcp/src/*"],
+        "@wawjs/css-prime-motion/*": ["./packages/motion/src/*", "./packages/motion/types/*"],
+        "@wawjs/css-prime-styled/*": ["./packages/styled/src/*"],
+        "@wawjs/css-prime-utils/*": ["./packages/utils/src/*"],
+        "@wawjs/css-prime-styles/*": ["./packages/styles/src/*"],
+        "@wawjs/css-prime-themes/*": ["./packages/themes/src/*", "./packages/themes/src/presets/*", "./packages/themes/types/*"],
     },
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */

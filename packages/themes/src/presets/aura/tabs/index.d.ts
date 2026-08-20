@@ -1,6 +1,6 @@
-import type { TabsTokenSections } from '@primeuix/themes/types/tabs';
+import type { TabsTokenSections } from '@wawjs/css-prime-themes/types/tabs';
 
-export * from '@primeuix/themes/types/tabs';
+export * from '@wawjs/css-prime-themes/types/tabs';
 
 declare const root: TabsTokenSections.Root;
 declare const tablist: TabsTokenSections.Tablist;

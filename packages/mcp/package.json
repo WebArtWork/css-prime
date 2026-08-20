@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/mcp",
+    "name": "@wawjs/css-prime-mcp",
     "version": "1.0.1",
     "author": "Web Art Work",
     "description": "Model Context Protocol (MCP) server for PrimeUI Libraries",

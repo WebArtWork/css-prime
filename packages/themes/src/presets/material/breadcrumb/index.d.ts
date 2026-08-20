@@ -1,6 +1,6 @@
-import type { BreadcrumbTokenSections } from '@primeuix/themes/types/breadcrumb';
+import type { BreadcrumbTokenSections } from '@wawjs/css-prime-themes/types/breadcrumb';
 
-export * from '@primeuix/themes/types/breadcrumb';
+export * from '@wawjs/css-prime-themes/types/breadcrumb';
 
 declare const root: BreadcrumbTokenSections.Root;
 declare const item: BreadcrumbTokenSections.Item;

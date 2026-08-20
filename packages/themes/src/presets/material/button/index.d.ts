@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { ButtonTokenSections } from '@primeuix/themes/types/button';
+import type { StyleOptions } from '@wawjs/css-prime-styled';
+import type { ButtonTokenSections } from '@wawjs/css-prime-themes/types/button';
 
-export * from '@primeuix/themes/types/button';
+export * from '@wawjs/css-prime-themes/types/button';
 
 declare const root: ButtonTokenSections.Root;
 declare const colorScheme: ButtonTokenSections.ColorScheme;

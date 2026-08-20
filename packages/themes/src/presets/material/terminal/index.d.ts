@@ -1,6 +1,6 @@
-import type { TerminalTokenSections } from '@primeuix/themes/types/terminal';
+import type { TerminalTokenSections } from '@wawjs/css-prime-themes/types/terminal';
 
-export * from '@primeuix/themes/types/terminal';
+export * from '@wawjs/css-prime-themes/types/terminal';
 
 declare const root: TerminalTokenSections.Root;
 declare const prompt: TerminalTokenSections.Prompt;

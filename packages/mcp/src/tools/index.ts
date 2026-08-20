@@ -1,5 +1,5 @@
 /**
- * @primeuix/mcp - Tool exports
+ * @wawjs/css-prime-mcp - Tool exports
  */
 
 export { registerComponentTools } from './component-tools.js';

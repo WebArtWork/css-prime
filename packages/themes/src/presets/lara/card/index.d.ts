@@ -1,6 +1,6 @@
-import type { CardTokenSections } from '@primeuix/themes/types/card';
+import type { CardTokenSections } from '@wawjs/css-prime-themes/types/card';
 
-export * from '@primeuix/themes/types/card';
+export * from '@wawjs/css-prime-themes/types/card';
 
 declare const root: CardTokenSections.Root;
 declare const body: CardTokenSections.Body;

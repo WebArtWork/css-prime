@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { CheckboxTokenSections } from '@primeuix/themes/types/checkbox';
+import type { StyleOptions } from '@wawjs/css-prime-styled';
+import type { CheckboxTokenSections } from '@wawjs/css-prime-themes/types/checkbox';
 
-export * from '@primeuix/themes/types/checkbox';
+export * from '@wawjs/css-prime-themes/types/checkbox';
 
 declare const root: CheckboxTokenSections.Root;
 declare const icon: CheckboxTokenSections.Icon;

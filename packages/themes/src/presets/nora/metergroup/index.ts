@@ -1,4 +1,4 @@
-import type { MeterGroupDesignTokens, MeterGroupTokenSections } from '@primeuix/themes/types/metergroup';
+import type { MeterGroupDesignTokens, MeterGroupTokenSections } from '@wawjs/css-prime-themes/types/metergroup';
 
 export const root: MeterGroupTokenSections.Root = {
     borderRadius: '{content.border.radius}',

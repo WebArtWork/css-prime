@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { AutoCompleteTokenSections } from '@primeuix/themes/types/autocomplete';
+import type { StyleOptions } from '@wawjs/css-prime-styled';
+import type { AutoCompleteTokenSections } from '@wawjs/css-prime-themes/types/autocomplete';
 
-export * from '@primeuix/themes/types/autocomplete';
+export * from '@wawjs/css-prime-themes/types/autocomplete';
 
 declare const root: AutoCompleteTokenSections.Root;
 declare const overlay: AutoCompleteTokenSections.Overlay;

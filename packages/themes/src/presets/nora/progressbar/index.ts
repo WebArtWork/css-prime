@@ -1,4 +1,4 @@
-import type { ProgressBarDesignTokens, ProgressBarTokenSections } from '@primeuix/themes/types/progressbar';
+import type { ProgressBarDesignTokens, ProgressBarTokenSections } from '@wawjs/css-prime-themes/types/progressbar';
 
 export const root: ProgressBarTokenSections.Root = {
     borderRadius: '{content.border.radius}',

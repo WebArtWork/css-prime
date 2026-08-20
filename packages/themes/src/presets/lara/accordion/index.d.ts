@@ -1,6 +1,6 @@
-import type { AccordionTokenSections } from '@primeuix/themes/types/accordion';
+import type { AccordionTokenSections } from '@wawjs/css-prime-themes/types/accordion';
 
-export * from '@primeuix/themes/types/accordion';
+export * from '@wawjs/css-prime-themes/types/accordion';
 
 declare const root: AccordionTokenSections.Root;
 declare const panel: AccordionTokenSections.Panel;

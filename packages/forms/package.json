@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/forms",
+    "name": "@wawjs/css-prime-forms",
     "version": "0.1.0",
     "author": "Web Art Work",
     "description": "Forms utilities for PrimeUI Libraries",
@@ -33,7 +33,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@wawjs/css-prime-utils": "workspace:^"
     },
     "devDependencies": {
         "yup": "^1.4.0",

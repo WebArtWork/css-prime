@@ -1,4 +1,4 @@
-import type { InplaceDesignTokens, InplaceTokenSections } from '@primeuix/themes/types/inplace';
+import type { InplaceDesignTokens, InplaceTokenSections } from '@wawjs/css-prime-themes/types/inplace';
 
 export const root: InplaceTokenSections.Root = {
     padding: '{form.field.padding.y} {form.field.padding.x}',

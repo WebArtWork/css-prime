@@ -1,4 +1,4 @@
-import { isObject } from '@primeuix/utils';
+import { isObject } from '@wawjs/css-prime-utils';
 
 export const toValues = (value: any, name?: string) => {
     if (name) {

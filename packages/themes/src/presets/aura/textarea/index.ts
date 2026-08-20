@@ -1,4 +1,4 @@
-import type { TextareaDesignTokens, TextareaTokenSections } from '@primeuix/themes/types/textarea';
+import type { TextareaDesignTokens, TextareaTokenSections } from '@wawjs/css-prime-themes/types/textarea';
 
 export const root: TextareaTokenSections.Root = {
     background: '{form.field.background}',

@@ -1,4 +1,4 @@
-import { matchRegex } from '@primeuix/utils';
+import { matchRegex } from '@wawjs/css-prime-utils';
 import type { ColorScale } from '../..';
 import { EXPR_REGEX } from '../../utils/index';
 import shade from './shade';

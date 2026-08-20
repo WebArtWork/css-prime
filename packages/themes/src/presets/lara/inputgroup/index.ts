@@ -1,4 +1,4 @@
-import type { InputGroupDesignTokens, InputGroupTokenSections } from '@primeuix/themes/types/inputgroup';
+import type { InputGroupDesignTokens, InputGroupTokenSections } from '@wawjs/css-prime-themes/types/inputgroup';
 
 export const addon: InputGroupTokenSections.Addon = {
     borderRadius: '{form.field.border.radius}',

@@ -1,4 +1,4 @@
-import { EventBus } from '@primeuix/utils/eventbus';
+import { EventBus } from '@wawjs/css-prime-utils/eventbus';
 
 const LocaleService = EventBus();
 

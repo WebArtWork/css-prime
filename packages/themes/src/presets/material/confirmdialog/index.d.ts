@@ -1,6 +1,6 @@
-import type { ConfirmDialogTokenSections } from '@primeuix/themes/types/confirmdialog';
+import type { ConfirmDialogTokenSections } from '@wawjs/css-prime-themes/types/confirmdialog';
 
-export * from '@primeuix/themes/types/confirmdialog';
+export * from '@wawjs/css-prime-themes/types/confirmdialog';
 
 declare const icon: ConfirmDialogTokenSections.Icon;
 declare const content: ConfirmDialogTokenSections.Content;

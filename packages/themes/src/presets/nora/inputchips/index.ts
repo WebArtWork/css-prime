@@ -1,4 +1,4 @@
-import type { InputChipsDesignTokens, InputChipsTokenSections } from '@primeuix/themes/types/inputchips';
+import type { InputChipsDesignTokens, InputChipsTokenSections } from '@wawjs/css-prime-themes/types/inputchips';
 
 export const root: InputChipsTokenSections.Root = {
     background: '{form.field.background}',

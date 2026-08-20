@@ -1,6 +1,6 @@
-import type { FieldsetTokenSections } from '@primeuix/themes/types/fieldset';
+import type { FieldsetTokenSections } from '@wawjs/css-prime-themes/types/fieldset';
 
-export * from '@primeuix/themes/types/fieldset';
+export * from '@wawjs/css-prime-themes/types/fieldset';
 
 declare const root: FieldsetTokenSections.Root;
 declare const legend: FieldsetTokenSections.Legend;

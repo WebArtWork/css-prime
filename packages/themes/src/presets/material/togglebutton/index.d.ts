@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { ToggleButtonTokenSections } from '@primeuix/themes/types/togglebutton';
+import type { StyleOptions } from '@wawjs/css-prime-styled';
+import type { ToggleButtonTokenSections } from '@wawjs/css-prime-themes/types/togglebutton';
 
-export * from '@primeuix/themes/types/togglebutton';
+export * from '@wawjs/css-prime-themes/types/togglebutton';
 
 declare const root: ToggleButtonTokenSections.Root;
 declare const icon: ToggleButtonTokenSections.Icon;

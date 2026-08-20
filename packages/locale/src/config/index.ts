@@ -1,4 +1,4 @@
-import { mergeKeys } from '@primeuix/utils/object';
+import { mergeKeys } from '@wawjs/css-prime-utils/object';
 import LocaleService from '../service';
 import type { LocaleInstance, LocaleOptions } from '../types';
 

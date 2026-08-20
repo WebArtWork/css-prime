@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/headless",
+    "name": "@wawjs/css-prime-headless",
     "version": "0.0.0-alpha.1",
     "author": "Web Art Work",
     "description": "Headless utilities for PrimeUI Libraries",
@@ -42,7 +42,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@wawjs/css-prime-utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

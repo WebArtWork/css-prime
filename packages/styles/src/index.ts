@@ -1,278 +1,278 @@
 // Accordion
-export * as AccordionStyle from '@primeuix/styles/accordion';
+export * as AccordionStyle from '@wawjs/css-prime-styles/accordion';
 
 // AutoComplete
-export * as AutoCompleteStyle from '@primeuix/styles/autocomplete';
+export * as AutoCompleteStyle from '@wawjs/css-prime-styles/autocomplete';
 
 // Avatar
-export * as AvatarStyle from '@primeuix/styles/avatar';
+export * as AvatarStyle from '@wawjs/css-prime-styles/avatar';
 
 // Badge
-export * as BadgeStyle from '@primeuix/styles/badge';
+export * as BadgeStyle from '@wawjs/css-prime-styles/badge';
 
 // Base
-export * as BaseStyle from '@primeuix/styles/base';
+export * as BaseStyle from '@wawjs/css-prime-styles/base';
 
 // BlockUI
-export * as BlockUIStyle from '@primeuix/styles/blockui';
+export * as BlockUIStyle from '@wawjs/css-prime-styles/blockui';
 
 // Breadcrumb
-export * as BreadcrumbStyle from '@primeuix/styles/breadcrumb';
+export * as BreadcrumbStyle from '@wawjs/css-prime-styles/breadcrumb';
 
 // Button
-export * as ButtonStyle from '@primeuix/styles/button';
+export * as ButtonStyle from '@wawjs/css-prime-styles/button';
 
 // ButtonGroup
-export * as ButtonGroupStyle from '@primeuix/styles/buttongroup';
+export * as ButtonGroupStyle from '@wawjs/css-prime-styles/buttongroup';
 
 // Card
-export * as CardStyle from '@primeuix/styles/card';
+export * as CardStyle from '@wawjs/css-prime-styles/card';
 
 // Carousel
-export * as CarouselStyle from '@primeuix/styles/carousel';
+export * as CarouselStyle from '@wawjs/css-prime-styles/carousel';
 
 // CascadeSelect
-export * as CascadeSelectStyle from '@primeuix/styles/cascadeselect';
+export * as CascadeSelectStyle from '@wawjs/css-prime-styles/cascadeselect';
 
 // Checkbox
-export * as CheckboxStyle from '@primeuix/styles/checkbox';
+export * as CheckboxStyle from '@wawjs/css-prime-styles/checkbox';
 
 // CheckboxGroup
-export * as CheckboxGroupStyle from '@primeuix/styles/checkboxgroup';
+export * as CheckboxGroupStyle from '@wawjs/css-prime-styles/checkboxgroup';
 
 // Chip
-export * as ChipStyle from '@primeuix/styles/chip';
+export * as ChipStyle from '@wawjs/css-prime-styles/chip';
 
 // ColorPicker
-export * as ColorPickerStyle from '@primeuix/styles/colorpicker';
+export * as ColorPickerStyle from '@wawjs/css-prime-styles/colorpicker';
 
 // ConfirmDialog
-export * as ConfirmDialogStyle from '@primeuix/styles/confirmdialog';
+export * as ConfirmDialogStyle from '@wawjs/css-prime-styles/confirmdialog';
 
 // ConfirmPopup
-export * as ConfirmPopupStyle from '@primeuix/styles/confirmpopup';
+export * as ConfirmPopupStyle from '@wawjs/css-prime-styles/confirmpopup';
 
 // ContextMenu
-export * as ContextMenuStyle from '@primeuix/styles/contextmenu';
+export * as ContextMenuStyle from '@wawjs/css-prime-styles/contextmenu';
 
 // DataTable
-export * as DataTableStyle from '@primeuix/styles/datatable';
+export * as DataTableStyle from '@wawjs/css-prime-styles/datatable';
 
 // DataView
-export * as DataViewStyle from '@primeuix/styles/dataview';
+export * as DataViewStyle from '@wawjs/css-prime-styles/dataview';
 
 // DatePicker
-export * as DatePickerStyle from '@primeuix/styles/datepicker';
+export * as DatePickerStyle from '@wawjs/css-prime-styles/datepicker';
 
 // Dialog
-export * as DialogStyle from '@primeuix/styles/dialog';
+export * as DialogStyle from '@wawjs/css-prime-styles/dialog';
 
 // Divider
-export * as DividerStyle from '@primeuix/styles/divider';
+export * as DividerStyle from '@wawjs/css-prime-styles/divider';
 
 // Dock
-export * as DockStyle from '@primeuix/styles/dock';
+export * as DockStyle from '@wawjs/css-prime-styles/dock';
 
 // Drawer
-export * as DrawerStyle from '@primeuix/styles/drawer';
+export * as DrawerStyle from '@wawjs/css-prime-styles/drawer';
 
 // Editor
-export * as EditorStyle from '@primeuix/styles/editor';
+export * as EditorStyle from '@wawjs/css-prime-styles/editor';
 
 // Fieldset
-export * as FieldsetStyle from '@primeuix/styles/fieldset';
+export * as FieldsetStyle from '@wawjs/css-prime-styles/fieldset';
 
 // FileUpload
-export * as FileUploadStyle from '@primeuix/styles/fileupload';
+export * as FileUploadStyle from '@wawjs/css-prime-styles/fileupload';
 
 // FloatLabel
-export * as FloatLabelStyle from '@primeuix/styles/floatlabel';
+export * as FloatLabelStyle from '@wawjs/css-prime-styles/floatlabel';
 
 // Galleria
-export * as GalleriaStyle from '@primeuix/styles/galleria';
+export * as GalleriaStyle from '@wawjs/css-prime-styles/galleria';
 
 // IconField
-export * as IconFieldStyle from '@primeuix/styles/iconfield';
+export * as IconFieldStyle from '@wawjs/css-prime-styles/iconfield';
 
 // IftaLabel
-export * as IftaLabelStyle from '@primeuix/styles/iftalabel';
+export * as IftaLabelStyle from '@wawjs/css-prime-styles/iftalabel';
 
 // Image
-export * as ImageStyle from '@primeuix/styles/image';
+export * as ImageStyle from '@wawjs/css-prime-styles/image';
 
 // ImageCompare
-export * as ImageCompareStyle from '@primeuix/styles/imagecompare';
+export * as ImageCompareStyle from '@wawjs/css-prime-styles/imagecompare';
 
 // InlineMessage
-export * as InlineMessageStyle from '@primeuix/styles/inlinemessage';
+export * as InlineMessageStyle from '@wawjs/css-prime-styles/inlinemessage';
 
 // Inplace
-export * as InplaceStyle from '@primeuix/styles/inplace';
+export * as InplaceStyle from '@wawjs/css-prime-styles/inplace';
 
 // InputChips
-export * as InputChipsStyle from '@primeuix/styles/inputchips';
+export * as InputChipsStyle from '@wawjs/css-prime-styles/inputchips';
 
 // InputGroup
-export * as InputGroupStyle from '@primeuix/styles/inputgroup';
+export * as InputGroupStyle from '@wawjs/css-prime-styles/inputgroup';
 
 // InputNumber
-export * as InputNumberStyle from '@primeuix/styles/inputnumber';
+export * as InputNumberStyle from '@wawjs/css-prime-styles/inputnumber';
 
 // InputOtp
-export * as InputOtpStyle from '@primeuix/styles/inputotp';
+export * as InputOtpStyle from '@wawjs/css-prime-styles/inputotp';
 
 // InputText
-export * as InputTextStyle from '@primeuix/styles/inputtext';
+export * as InputTextStyle from '@wawjs/css-prime-styles/inputtext';
 
 // Knob
-export * as KnobStyle from '@primeuix/styles/knob';
+export * as KnobStyle from '@wawjs/css-prime-styles/knob';
 
 // Listbox
-export * as ListboxStyle from '@primeuix/styles/listbox';
+export * as ListboxStyle from '@wawjs/css-prime-styles/listbox';
 
 // MegaMenu
-export * as MegaMenuStyle from '@primeuix/styles/megamenu';
+export * as MegaMenuStyle from '@wawjs/css-prime-styles/megamenu';
 
 // Menu
-export * as MenuStyle from '@primeuix/styles/menu';
+export * as MenuStyle from '@wawjs/css-prime-styles/menu';
 
 // Menubar
-export * as MenubarStyle from '@primeuix/styles/menubar';
+export * as MenubarStyle from '@wawjs/css-prime-styles/menubar';
 
 // Message
-export * as MessageStyle from '@primeuix/styles/message';
+export * as MessageStyle from '@wawjs/css-prime-styles/message';
 
 // MeterGroup
-export * as MeterGroupStyle from '@primeuix/styles/metergroup';
+export * as MeterGroupStyle from '@wawjs/css-prime-styles/metergroup';
 
 // MultiSelect
-export * as MultiSelectStyle from '@primeuix/styles/multiselect';
+export * as MultiSelectStyle from '@wawjs/css-prime-styles/multiselect';
 
 // OrderList
-export * as OrderListStyle from '@primeuix/styles/orderlist';
+export * as OrderListStyle from '@wawjs/css-prime-styles/orderlist';
 
 // OrganizationChart
-export * as OrganizationChartStyle from '@primeuix/styles/organizationchart';
+export * as OrganizationChartStyle from '@wawjs/css-prime-styles/organizationchart';
 
 // OverlayBadge
-export * as OverlayBadgeStyle from '@primeuix/styles/overlaybadge';
+export * as OverlayBadgeStyle from '@wawjs/css-prime-styles/overlaybadge';
 
 // Paginator
-export * as PaginatorStyle from '@primeuix/styles/paginator';
+export * as PaginatorStyle from '@wawjs/css-prime-styles/paginator';
 
 // Panel
-export * as PanelStyle from '@primeuix/styles/panel';
+export * as PanelStyle from '@wawjs/css-prime-styles/panel';
 
 // PanelMenu
-export * as PanelMenuStyle from '@primeuix/styles/panelmenu';
+export * as PanelMenuStyle from '@wawjs/css-prime-styles/panelmenu';
 
 // Password
-export * as PasswordStyle from '@primeuix/styles/password';
+export * as PasswordStyle from '@wawjs/css-prime-styles/password';
 
 // PickList
-export * as PickListStyle from '@primeuix/styles/picklist';
+export * as PickListStyle from '@wawjs/css-prime-styles/picklist';
 
 // Popover
-export * as PopoverStyle from '@primeuix/styles/popover';
+export * as PopoverStyle from '@wawjs/css-prime-styles/popover';
 
 // ProgressBar
-export * as ProgressBarStyle from '@primeuix/styles/progressbar';
+export * as ProgressBarStyle from '@wawjs/css-prime-styles/progressbar';
 
 // ProgressSpinner
-export * as ProgressSpinnerStyle from '@primeuix/styles/progressspinner';
+export * as ProgressSpinnerStyle from '@wawjs/css-prime-styles/progressspinner';
 
 // RadioButton
-export * as RadioButtonStyle from '@primeuix/styles/radiobutton';
+export * as RadioButtonStyle from '@wawjs/css-prime-styles/radiobutton';
 
 // RadioButtonGroup
-export * as RadioButtonGroupStyle from '@primeuix/styles/radiobuttongroup';
+export * as RadioButtonGroupStyle from '@wawjs/css-prime-styles/radiobuttongroup';
 
 // Rating
-export * as RatingStyle from '@primeuix/styles/rating';
+export * as RatingStyle from '@wawjs/css-prime-styles/rating';
 
 // Ripple
-export * as RippleStyle from '@primeuix/styles/ripple';
+export * as RippleStyle from '@wawjs/css-prime-styles/ripple';
 
 // ScrollPanel
-export * as ScrollPanelStyle from '@primeuix/styles/scrollpanel';
+export * as ScrollPanelStyle from '@wawjs/css-prime-styles/scrollpanel';
 
 // ScrollTop
-export * as ScrollTopStyle from '@primeuix/styles/scrolltop';
+export * as ScrollTopStyle from '@wawjs/css-prime-styles/scrolltop';
 
 // Select
-export * as SelectStyle from '@primeuix/styles/select';
+export * as SelectStyle from '@wawjs/css-prime-styles/select';
 
 // SelectButton
-export * as SelectButtonStyle from '@primeuix/styles/selectbutton';
+export * as SelectButtonStyle from '@wawjs/css-prime-styles/selectbutton';
 
 // Skeleton
-export * as SkeletonStyle from '@primeuix/styles/skeleton';
+export * as SkeletonStyle from '@wawjs/css-prime-styles/skeleton';
 
 // Slider
-export * as SliderStyle from '@primeuix/styles/slider';
+export * as SliderStyle from '@wawjs/css-prime-styles/slider';
 
 // SpeedDial
-export * as SpeedDialStyle from '@primeuix/styles/speeddial';
+export * as SpeedDialStyle from '@wawjs/css-prime-styles/speeddial';
 
 // SplitButton
-export * as SplitButtonStyle from '@primeuix/styles/splitbutton';
+export * as SplitButtonStyle from '@wawjs/css-prime-styles/splitbutton';
 
 // Splitter
-export * as SplitterStyle from '@primeuix/styles/splitter';
+export * as SplitterStyle from '@wawjs/css-prime-styles/splitter';
 
 // Stepper
-export * as StepperStyle from '@primeuix/styles/stepper';
+export * as StepperStyle from '@wawjs/css-prime-styles/stepper';
 
 // Steps
-export * as StepsStyle from '@primeuix/styles/steps';
+export * as StepsStyle from '@wawjs/css-prime-styles/steps';
 
 // TabMenu
-export * as TabMenuStyle from '@primeuix/styles/tabmenu';
+export * as TabMenuStyle from '@wawjs/css-prime-styles/tabmenu';
 
 // Tabs
-export * as TabsStyle from '@primeuix/styles/tabs';
+export * as TabsStyle from '@wawjs/css-prime-styles/tabs';
 
 // TabView
-export * as TabViewStyle from '@primeuix/styles/tabview';
+export * as TabViewStyle from '@wawjs/css-prime-styles/tabview';
 
 // Tag
-export * as TagStyle from '@primeuix/styles/tag';
+export * as TagStyle from '@wawjs/css-prime-styles/tag';
 
 // Terminal
-export * as TerminalStyle from '@primeuix/styles/terminal';
+export * as TerminalStyle from '@wawjs/css-prime-styles/terminal';
 
 // Textarea
-export * as TextareaStyle from '@primeuix/styles/textarea';
+export * as TextareaStyle from '@wawjs/css-prime-styles/textarea';
 
 // TieredMenu
-export * as TieredMenuStyle from '@primeuix/styles/tieredmenu';
+export * as TieredMenuStyle from '@wawjs/css-prime-styles/tieredmenu';
 
 // Timeline
-export * as TimelineStyle from '@primeuix/styles/timeline';
+export * as TimelineStyle from '@wawjs/css-prime-styles/timeline';
 
 // Toast
-export * as ToastStyle from '@primeuix/styles/toast';
+export * as ToastStyle from '@wawjs/css-prime-styles/toast';
 
 // ToggleButton
-export * as ToggleButtonStyle from '@primeuix/styles/togglebutton';
+export * as ToggleButtonStyle from '@wawjs/css-prime-styles/togglebutton';
 
 // ToggleSwitch
-export * as ToggleSwitchStyle from '@primeuix/styles/toggleswitch';
+export * as ToggleSwitchStyle from '@wawjs/css-prime-styles/toggleswitch';
 
 // Toolbar
-export * as ToolbarStyle from '@primeuix/styles/toolbar';
+export * as ToolbarStyle from '@wawjs/css-prime-styles/toolbar';
 
 // Tooltip
-export * as TooltipStyle from '@primeuix/styles/tooltip';
+export * as TooltipStyle from '@wawjs/css-prime-styles/tooltip';
 
 // Tree
-export * as TreeStyle from '@primeuix/styles/tree';
+export * as TreeStyle from '@wawjs/css-prime-styles/tree';
 
 // TreeSelect
-export * as TreeSelectStyle from '@primeuix/styles/treeselect';
+export * as TreeSelectStyle from '@wawjs/css-prime-styles/treeselect';
 
 // TreeTable
-export * as TreeTableStyle from '@primeuix/styles/treetable';
+export * as TreeTableStyle from '@wawjs/css-prime-styles/treetable';
 
 // VirtualScroller
-export * as VirtualScrollerStyle from '@primeuix/styles/virtualscroller';
+export * as VirtualScrollerStyle from '@wawjs/css-prime-styles/virtualscroller';

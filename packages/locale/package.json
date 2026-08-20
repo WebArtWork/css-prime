@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/locale",
+    "name": "@wawjs/css-prime-locale",
     "version": "0.0.2",
     "author": "Web Art Work",
     "description": "Locale utilities for PrimeUI Libraries",
@@ -37,7 +37,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@wawjs/css-prime-utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

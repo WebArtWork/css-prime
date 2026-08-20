@@ -1,4 +1,4 @@
-import { equals, findLastIndex, findSingle, focus, getFirstFocusableElement, isElement, isNotEmpty, isPrintableCharacter, isString, resolveFieldData } from '@primeuix/utils';
+import { equals, findLastIndex, findSingle, focus, getFirstFocusableElement, isElement, isNotEmpty, isPrintableCharacter, isString, resolveFieldData } from '@wawjs/css-prime-utils';
 import { defineComponent } from '../core';
 import { nextFrame } from '../utils';
 import type { ListboxEmits, ListboxExpose, ListboxProps, ListboxRefs, ListboxState } from './type';

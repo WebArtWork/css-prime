@@ -1,6 +1,6 @@
-import type { VirtualScrollerTokenSections } from '@primeuix/themes/types/virtualscroller';
+import type { VirtualScrollerTokenSections } from '@wawjs/css-prime-themes/types/virtualscroller';
 
-export * from '@primeuix/themes/types/virtualscroller';
+export * from '@wawjs/css-prime-themes/types/virtualscroller';
 
 declare const loader: VirtualScrollerTokenSections.Loader;
 declare const _default: {

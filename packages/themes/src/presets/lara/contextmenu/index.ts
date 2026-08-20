@@ -1,4 +1,4 @@
-import type { ContextMenuDesignTokens, ContextMenuTokenSections } from '@primeuix/themes/types/contextmenu';
+import type { ContextMenuDesignTokens, ContextMenuTokenSections } from '@wawjs/css-prime-themes/types/contextmenu';
 
 export const root: ContextMenuTokenSections.Root = {
     background: '{content.background}',

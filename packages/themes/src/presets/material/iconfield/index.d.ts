@@ -1,6 +1,6 @@
-import type { IconFieldTokenSections } from '@primeuix/themes/types/iconfield';
+import type { IconFieldTokenSections } from '@wawjs/css-prime-themes/types/iconfield';
 
-export * from '@primeuix/themes/types/iconfield';
+export * from '@wawjs/css-prime-themes/types/iconfield';
 
 declare const icon: IconFieldTokenSections.Icon;
 declare const css: IconFieldTokenSections.CSS;

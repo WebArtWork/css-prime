@@ -1,6 +1,6 @@
-import type { TagTokenSections } from '@primeuix/themes/types/tag';
+import type { TagTokenSections } from '@wawjs/css-prime-themes/types/tag';
 
-export * from '@primeuix/themes/types/tag';
+export * from '@wawjs/css-prime-themes/types/tag';
 
 declare const root: TagTokenSections.Root;
 declare const icon: TagTokenSections.Icon;

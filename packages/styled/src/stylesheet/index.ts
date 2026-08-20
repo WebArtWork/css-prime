@@ -1,4 +1,4 @@
-import { createStyleMarkup, isNotEmpty } from '@primeuix/utils';
+import { createStyleMarkup, isNotEmpty } from '@wawjs/css-prime-utils';
 
 export interface StyleSheetProps {
     attrs?: Record<string, unknown>;

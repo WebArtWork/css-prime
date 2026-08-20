@@ -5,7 +5,7 @@ import tseslint from 'typescript-eslint';
 
 export default tseslint.config([
     {
-        ignores: ['**/dist/**', '**/node_modules/**', '**/submodules/**', '**/umd/**']
+        ignores: ['**/dist/**', '**/node_modules/**', '**/umd/**']
     },
     {
         files: ['**/__tests__/**/*', '**/*.test.*'],

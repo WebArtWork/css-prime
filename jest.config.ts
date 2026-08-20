@@ -5,9 +5,9 @@ export default {
     rootDir: './',
     preset: 'ts-jest',
     testEnvironment: 'node',
-    modulePathIgnorePatterns: ['<rootDir>/packages/.*/dist', '<rootDir>/submodules/.*'],
+    modulePathIgnorePatterns: ['<rootDir>/packages/.*/dist'],
     moduleFileExtensions: [...defaults.moduleFileExtensions, 'mts'],
     moduleNameMapper: {
-        '^@primeuix/(.*)/(.*)$': '<rootDir>/packages/$1/src/$2'
+        '^@wawjs/css-prime-(.*)/(.*)$': '<rootDir>/packages/$1/src/$2'
     }
 } satisfies Config;

@@ -1,6 +1,6 @@
-import type { PanelTokenSections } from '@primeuix/themes/types/panel';
+import type { PanelTokenSections } from '@wawjs/css-prime-themes/types/panel';
 
-export * from '@primeuix/themes/types/panel';
+export * from '@wawjs/css-prime-themes/types/panel';
 
 declare const root: PanelTokenSections.Root;
 declare const header: PanelTokenSections.Header;

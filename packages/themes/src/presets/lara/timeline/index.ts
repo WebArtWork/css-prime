@@ -1,4 +1,4 @@
-import type { TimelineDesignTokens, TimelineTokenSections } from '@primeuix/themes/types/timeline';
+import type { TimelineDesignTokens, TimelineTokenSections } from '@wawjs/css-prime-themes/types/timeline';
 
 export const event: TimelineTokenSections.Event = {
     minHeight: '5rem'

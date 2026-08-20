@@ -1,6 +1,6 @@
-import type { MegaMenuTokenSections } from '@primeuix/themes/types/megamenu';
+import type { MegaMenuTokenSections } from '@wawjs/css-prime-themes/types/megamenu';
 
-export * from '@primeuix/themes/types/megamenu';
+export * from '@wawjs/css-prime-themes/types/megamenu';
 
 declare const root: MegaMenuTokenSections.Root;
 declare const baseItem: MegaMenuTokenSections.BaseItem;

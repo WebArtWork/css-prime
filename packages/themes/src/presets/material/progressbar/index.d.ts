@@ -1,6 +1,6 @@
-import type { ProgressBarTokenSections } from '@primeuix/themes/types/progressbar';
+import type { ProgressBarTokenSections } from '@wawjs/css-prime-themes/types/progressbar';
 
-export * from '@primeuix/themes/types/progressbar';
+export * from '@wawjs/css-prime-themes/types/progressbar';
 
 declare const root: ProgressBarTokenSections.Root;
 declare const value: ProgressBarTokenSections.Value;

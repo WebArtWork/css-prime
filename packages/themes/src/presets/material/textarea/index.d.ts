@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { TextareaTokenSections } from '@primeuix/themes/types/textarea';
+import type { StyleOptions } from '@wawjs/css-prime-styled';
+import type { TextareaTokenSections } from '@wawjs/css-prime-themes/types/textarea';
 
-export * from '@primeuix/themes/types/textarea';
+export * from '@wawjs/css-prime-themes/types/textarea';
 
 declare const root: TextareaTokenSections.Root;
 declare const css: TextareaTokenSections.CSS;

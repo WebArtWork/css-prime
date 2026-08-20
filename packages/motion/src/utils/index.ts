@@ -1,4 +1,4 @@
-import { getHiddenElementDimensions, isPrefersReducedMotion, setCSSProperty, toMs } from '@primeuix/utils';
+import { getHiddenElementDimensions, isPrefersReducedMotion, setCSSProperty, toMs } from '@wawjs/css-prime-utils';
 import type { MotionClassNamesWithPhase, MotionHooksWithPhase, MotionMetadata, MotionOptions, MotionPhase, MotionState, MotionType } from '../../types';
 
 export const ANIMATION = 'animation';

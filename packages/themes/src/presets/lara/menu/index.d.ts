@@ -1,6 +1,6 @@
-import type { MenuTokenSections } from '@primeuix/themes/types/menu';
+import type { MenuTokenSections } from '@wawjs/css-prime-themes/types/menu';
 
-export * from '@primeuix/themes/types/menu';
+export * from '@wawjs/css-prime-themes/types/menu';
 
 declare const root: MenuTokenSections.Root;
 declare const list: MenuTokenSections.List;

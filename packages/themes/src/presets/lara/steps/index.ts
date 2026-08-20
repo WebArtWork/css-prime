@@ -1,4 +1,4 @@
-import type { StepsDesignTokens, StepsTokenSections } from '@primeuix/themes/types/steps';
+import type { StepsDesignTokens, StepsTokenSections } from '@wawjs/css-prime-themes/types/steps';
 
 export const root: StepsTokenSections.Root = {
     transitionDuration: '{transition.duration}'

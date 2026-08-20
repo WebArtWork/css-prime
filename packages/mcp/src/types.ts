@@ -1,5 +1,5 @@
 /**
- * @primeuix/mcp - Shared types for PrimeVue and PrimeNG MCP servers
+ * @wawjs/css-prime-mcp - Shared types for PrimeVue and PrimeNG MCP servers
  */
 
 // API Types

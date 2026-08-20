@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/styles",
+    "name": "@wawjs/css-prime-styles",
     "version": "2.0.3",
     "author": "Web Art Work",
     "description": "Styles utilities for PrimeUI Libraries",
@@ -43,6 +43,6 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "workspace:^"
+        "@wawjs/css-prime-styled": "workspace:^"
     }
 }

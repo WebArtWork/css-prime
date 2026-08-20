@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { InputTextTokenSections } from '@primeuix/themes/types/inputtext';
+import type { StyleOptions } from '@wawjs/css-prime-styled';
+import type { InputTextTokenSections } from '@wawjs/css-prime-themes/types/inputtext';
 
-export * from '@primeuix/themes/types/inputtext';
+export * from '@wawjs/css-prime-themes/types/inputtext';
 
 declare const root: InputTextTokenSections.Root;
 declare const css: InputTextTokenSections.CSS;

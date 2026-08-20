@@ -1,6 +1,6 @@
-import type { ColorPickerTokenSections } from '@primeuix/themes/types/colorpicker';
+import type { ColorPickerTokenSections } from '@wawjs/css-prime-themes/types/colorpicker';
 
-export * from '@primeuix/themes/types/colorpicker';
+export * from '@wawjs/css-prime-themes/types/colorpicker';
 
 declare const root: ColorPickerTokenSections.Root;
 declare const preview: ColorPickerTokenSections.Preview;

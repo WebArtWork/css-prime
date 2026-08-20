@@ -1,6 +1,6 @@
-import type { TreeTokenSections } from '@primeuix/themes/types/tree';
+import type { TreeTokenSections } from '@wawjs/css-prime-themes/types/tree';
 
-export * from '@primeuix/themes/types/tree';
+export * from '@wawjs/css-prime-themes/types/tree';
 
 declare const root: TreeTokenSections.Root;
 declare const node: TreeTokenSections.Node;

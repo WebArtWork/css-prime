@@ -1,4 +1,4 @@
-import type { TreeSelectDesignTokens, TreeSelectTokenSections } from '@primeuix/themes/types/treeselect';
+import type { TreeSelectDesignTokens, TreeSelectTokenSections } from '@wawjs/css-prime-themes/types/treeselect';
 
 export const root: TreeSelectTokenSections.Root = {
     background: '{form.field.background}',

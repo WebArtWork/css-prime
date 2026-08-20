@@ -1,4 +1,4 @@
-import type { ProgressSpinnerDesignTokens, ProgressSpinnerTokenSections } from '@primeuix/themes/types/progressspinner';
+import type { ProgressSpinnerDesignTokens, ProgressSpinnerTokenSections } from '@wawjs/css-prime-themes/types/progressspinner';
 
 export const colorScheme: ProgressSpinnerTokenSections.ColorScheme = {
     light: {

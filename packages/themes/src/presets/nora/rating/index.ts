@@ -1,4 +1,4 @@
-import type { RatingDesignTokens, RatingTokenSections } from '@primeuix/themes/types/rating';
+import type { RatingDesignTokens, RatingTokenSections } from '@wawjs/css-prime-themes/types/rating';
 
 export const root: RatingTokenSections.Root = {
     gap: '0.25rem',

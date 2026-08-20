@@ -1,6 +1,6 @@
-import type { ToggleSwitchTokenSections } from '@primeuix/themes/types/toggleswitch';
+import type { ToggleSwitchTokenSections } from '@wawjs/css-prime-themes/types/toggleswitch';
 
-export * from '@primeuix/themes/types/toggleswitch';
+export * from '@wawjs/css-prime-themes/types/toggleswitch';
 
 declare const root: ToggleSwitchTokenSections.Root;
 declare const handle: ToggleSwitchTokenSections.Handle;

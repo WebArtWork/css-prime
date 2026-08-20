@@ -1,4 +1,4 @@
-import type { FloatLabelDesignTokens, FloatLabelTokenSections } from '@primeuix/themes/types/floatlabel';
+import type { FloatLabelDesignTokens, FloatLabelTokenSections } from '@wawjs/css-prime-themes/types/floatlabel';
 
 export const root: FloatLabelTokenSections.Root = {
     color: '{form.field.float.label.color}',

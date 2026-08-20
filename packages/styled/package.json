@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/styled",
+    "name": "@wawjs/css-prime-styled",
     "version": "0.7.4",
     "author": "Web Art Work",
     "description": "Styled utilities for PrimeUI Libraries",
@@ -36,7 +36,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@wawjs/css-prime-utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

@@ -1,6 +1,6 @@
-import type { SliderTokenSections } from '@primeuix/themes/types/slider';
+import type { SliderTokenSections } from '@wawjs/css-prime-themes/types/slider';
 
-export * from '@primeuix/themes/types/slider';
+export * from '@wawjs/css-prime-themes/types/slider';
 
 declare const root: SliderTokenSections.Root;
 declare const track: SliderTokenSections.Track;

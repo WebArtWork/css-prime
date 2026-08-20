@@ -1,4 +1,4 @@
-import type { InlineMessageDesignTokens, InlineMessageTokenSections } from '@primeuix/themes/types/inlinemessage';
+import type { InlineMessageDesignTokens, InlineMessageTokenSections } from '@wawjs/css-prime-themes/types/inlinemessage';
 
 export const root: InlineMessageTokenSections.Root = {
     padding: '{form.field.padding.y} {form.field.padding.x}',
