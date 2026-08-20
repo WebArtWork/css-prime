@@ -18,7 +18,6 @@
         "init": "pnpm install && husky",
         "link": "pnpm --filter './packages/*' dev:link",
         "release": "pnpm run build && pnpm -r publish --filter './packages/*' --no-git-checks --report-summary",
-        "release:alpha": "pnpm run build && pnpm -r publish --filter './packages/*' --no-git-checks --report-summary --tag alpha",
         "release:beta": "pnpm run build && pnpm -r publish --filter './packages/*' --no-git-checks --report-summary --tag beta",
         "release:rc": "pnpm run build && pnpm -r publish --filter './packages/*' --no-git-checks --report-summary --tag rc",
         "build": "cross-env NODE_ENV=production pnpm run build:check && pnpm run build:packages",
