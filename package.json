@@ -1,6 +1,7 @@
 {
     "name": "css-prime-monorepo",
     "version": "0.7.0",
+    "private": true,
     "description": "css-prime is an independent MIT-licensed continuation of the archived PrimeUIX codebase, maintained by Web Art Work.",
     "author": "Web Art Work",
     "repository": {
