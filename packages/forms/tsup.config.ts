@@ -5,7 +5,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 const resolvers: string[] = [];
 
 const entry = globSync('src/**/index.ts').reduce((acc: Record<string, string>, file) => {
-    const name = file.replace(/^src\//, '').replace(/\.ts$/, '');
+    const name = file.replace(/\\/g, '/').replace(/^src\//, '').replace(/\.ts$/, '');
     const resolver: string | undefined = name.startsWith('resolvers/') ? name.split('/')?.[1] : undefined;
 
     if (resolver && !resolvers.includes(resolver)) {
