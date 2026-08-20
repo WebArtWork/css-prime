@@ -1,1 +1,1 @@
-# PrimeUIX Locale
+# css-prime Locale

@@ -1,1 +1,1 @@
-# PrimeUIX Utils
+# css-prime Utils

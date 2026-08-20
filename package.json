@@ -1,18 +1,20 @@
 {
-    "name": "@primeuix/monorepo",
+    "name": "css-prime-monorepo",
     "version": "0.7.0",
-    "author": "PrimeTek Informatics",
+    "description": "css-prime is an independent MIT-licensed continuation of the archived PrimeUIX codebase, maintained by Web Art Work.",
+    "author": "Web Art Work",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git"
+        "url": "git+https://github.com/WebArtWork/css-prime.git"
     },
     "license": "MIT",
+    "homepage": "https://github.com/WebArtWork/css-prime#readme",
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/WebArtWork/css-prime/issues"
     },
     "scripts": {
-        "setup": "pnpm run clean && npx concurrently 'pnpm run ng:setup' 'pnpm run vue:setup' 'pnpm run react:setup' 'pnpm run init'",
-        "clean": "npx rimraf --glob **/node_modules **/dist ./pnpm-lock.yaml",
+        "setup": "pnpm run init",
+        "clean": "npx rimraf --glob **/node_modules **/dist",
         "init": "pnpm install && husky",
         "link": "pnpm --filter './packages/*' dev:link",
         "release": "pnpm run build && pnpm -r publish --filter './packages/*' --no-git-checks --report-summary",
@@ -33,13 +35,6 @@
         "build:styles": "pnpm --filter styles build",
         "build:themes": "pnpm --filter themes build",
         "build:utils": "pnpm --filter utils build",
-        "dev": "concurrently 'pnpm run ng:dev' 'pnpm run vue:dev' 'pnpm run react:dev'",
-        "ng:setup": "./scripts/setup.sh ng",
-        "ng:dev": "./scripts/dev.sh ng",
-        "vue:setup": "./scripts/setup.sh vue",
-        "vue:dev": "./scripts/dev.sh vue",
-        "react:setup": "./scripts/setup.sh react",
-        "react:dev": "./scripts/dev.sh react",
         "playground:dev": "pnpm --filter playground dev",
         "type:check": "pnpm -r run type:check",
         "test": "pnpm -r run test",

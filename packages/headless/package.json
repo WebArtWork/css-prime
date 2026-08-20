@@ -1,17 +1,17 @@
 {
     "name": "@primeuix/headless",
     "version": "0.0.0-alpha.1",
-    "author": "PrimeTek Informatics",
+    "author": "Web Art Work",
     "description": "Headless utilities for PrimeUI Libraries",
     "keywords": ["headless", "primeng", "primereact", "primevue"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/WebArtWork/css-prime.git",
         "directory": "packages/headless"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/WebArtWork/css-prime/issues"
     },
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",

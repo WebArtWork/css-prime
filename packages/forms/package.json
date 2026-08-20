@@ -1,17 +1,17 @@
 {
     "name": "@primeuix/forms",
     "version": "0.1.0",
-    "author": "PrimeTek Informatics",
+    "author": "Web Art Work",
     "description": "Forms utilities for PrimeUI Libraries",
     "keywords": ["forms", "validation", "utilities", "primeng", "primereact", "primevue", "primeuix"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/WebArtWork/css-prime.git",
         "directory": "packages/forms"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/WebArtWork/css-prime/issues"
     },
     "exports": {
         "./*": {

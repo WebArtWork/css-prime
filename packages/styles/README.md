@@ -1,1 +1,1 @@
-# PrimeUIX Styles
+# css-prime Styles

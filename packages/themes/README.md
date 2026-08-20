@@ -1,1 +1,1 @@
-# PrimeUIX Themes
+# css-prime Themes

@@ -1,27 +1,33 @@
-# PrimeUIX
+# css-prime
 
-### The next chapter has begun.
+**css-prime** is an independent, MIT-licensed continuation of the archived [PrimeUIX](https://github.com/primefaces/primeuix) codebase, maintained by [Web Art Work](https://github.com/WebArtWork).
 
-After years as an open source library, PrimeUIX enters its next chapter as part of **PrimeUI**,  a sustainable foundation for the libraries you rely on.
+## Why this exists
 
-This repository is now **archived**. It remains available, as a record of everything built here together.
+PrimeUIX was the shared, framework-neutral foundation underneath PrimeNG, PrimeVue and PrimeReact. Its final open-source state was released under the MIT license before the upstream repository was archived and development moved elsewhere.
 
-## What this means
+css-prime continues that final MIT-licensed foundation as open source, so it can keep serving as the framework-neutral styling/runtime engine behind [`ngx-prime`](https://github.com/WebArtWork/ngx-prime), and potentially future Vue and React integrations.
 
-**Existing MIT versions remain MIT, forever.**
-Every release published under the MIT license stays exactly as it is. Your existing projects are unaffected. Nothing is taken away.
+See [ROADMAP.md](./ROADMAP.md) for the current state of the project and what's planned.
 
-**Development continues at a new home.**
-Active development, new releases, and everything ahead now live under PrimeUI.
+## Packages
 
-➡️ **Read the announcement:** [primeui.dev/nextchapter](https://primeui.dev/nextchapter)
+- `forms`
+- `headless`
+- `locale`
+- `mcp`
+- `motion`
+- `styled`
+- `styles`
+- `themes`
+- `utils`
 
-➡️ **The journey continues at:** [primeuix.dev](https://primeuix.dev)
+## Attribution
 
-## Thank you
+css-prime is derived from the MIT-licensed PrimeUIX codebase. Original work is attributed to PrimeTek Informatics and the PrimeUIX contributors. See [NOTICE.md](./NOTICE.md) and [LICENSE](./LICENSE) for details.
 
-To everyone who used PrimeUIX, filed an issue, opened a pull request, answered a question, or simply built something with it,  thank you. This library reached hundreds of millions of downloads because of you.
+css-prime is not affiliated with, sponsored by, or endorsed by PrimeTek Informatics, PrimeUI, or PrimeUIX.
 
-This archive stays here as a thank you and a milestone. The next chapter is just beginning, and we hope you'll be part of it.
+## License
 
-— The PrimeTek Team
+MIT — see [LICENSE](./LICENSE).

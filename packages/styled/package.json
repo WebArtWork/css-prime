@@ -1,17 +1,17 @@
 {
     "name": "@primeuix/styled",
     "version": "0.7.4",
-    "author": "PrimeTek Informatics",
+    "author": "Web Art Work",
     "description": "Styled utilities for PrimeUI Libraries",
     "keywords": ["styled", "css", "style utilities", "primeng", "primereact", "primevue", "primeuix"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/WebArtWork/css-prime.git",
         "directory": "packages/styled"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/WebArtWork/css-prime/issues"
     },
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
