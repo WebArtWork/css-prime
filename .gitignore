@@ -55,3 +55,6 @@ next-env.d.ts
 packages/forms/umd/*
 packages/themes/umd/*
 packages/themes/tokens/*
+
+# pnpm publish report (regenerated per-release, not meant to be tracked)
+pnpm-publish-summary.json
