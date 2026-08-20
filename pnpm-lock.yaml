@@ -151,7 +151,7 @@ importers:
   packages/mcp:
     dependencies:
       '@modelcontextprotocol/sdk':
-        specifier: ^1.24.3
+        specifier: ^1.25.2
         version: 1.25.2(hono@4.11.4)(zod@3.25.76)
       zod:
         specifier: ^3.25.76
