@@ -3,7 +3,8 @@
     "version": "0.7.0",
     "private": true,
     "description": "css-prime is an independent MIT-licensed continuation of the archived PrimeUIX codebase, maintained by Web Art Work.",
-    "author": "Web Art Work",
+    "author": "PrimeTek Informatics",
+    "contributors": ["PrimeTek Informatics", "Web Art Work"],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/WebArtWork/css-prime.git"
@@ -20,7 +21,6 @@
         "link": "pnpm --filter \"./packages/*\" dev:link",
         "release": "pnpm run build && pnpm -r publish --filter \"./packages/*\" --no-git-checks --report-summary",
         "release:beta": "pnpm run build && pnpm -r publish --filter \"./packages/*\" --no-git-checks --report-summary --tag beta",
-        "release:rc": "pnpm run build && pnpm -r publish --filter \"./packages/*\" --no-git-checks --report-summary --tag rc",
         "build": "cross-env NODE_ENV=production pnpm run build:check && pnpm run build:packages",
         "build:dev": "cross-env NODE_ENV=development pnpm run build:dev:packages",
         "build:check": "pnpm run format:check && pnpm run security:check",
@@ -42,8 +42,8 @@
         "security:check": "pnpm audit --production --audit-level high",
         "format": "prettier --write \"**/*.{js,mjs,ts,mts,d.ts}\"",
         "format:check": "prettier --check \"**/*.{js,mjs,ts,mts,d.ts}\" ",
-        "lint": "eslint",
-        "lint:fix": "eslint --fix"
+        "lint": "eslint packages/*/src packages/*/scripts apps/*/src apps/*/scripts scripts packages/*/*.config.* *.config.* --no-error-on-unmatched-pattern",
+        "lint:fix": "eslint packages/*/src packages/*/scripts apps/*/src apps/*/scripts scripts packages/*/*.config.* *.config.* --no-error-on-unmatched-pattern --fix"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.21.5",
