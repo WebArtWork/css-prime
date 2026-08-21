@@ -1,9 +1,9 @@
 {
     "name": "@wawjs/css-prime-motion",
-    "version": "0.0.11",
+    "version": "1.0.0",
     "author": "Web Art Work",
-    "description": "Motion utilities for PrimeUI Libraries",
-    "keywords": ["motion", "animation", "transition", "composition utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "description": "Framework-neutral motion utilities for css-prime",
+    "keywords": ["css-prime", "motion", "animation", "transition", "composition utilities"],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -39,6 +39,6 @@
         "@wawjs/css-prime-utils": "workspace:^"
     },
     "engines": {
-        "node": ">=12.11.0"
+        "node": ">=24 <25"
     }
 }

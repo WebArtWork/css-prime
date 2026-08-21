@@ -1,9 +1,9 @@
 {
     "name": "@wawjs/css-prime-mcp",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "author": "Web Art Work",
-    "description": "Model Context Protocol (MCP) server for PrimeUI Libraries",
-    "keywords": ["mcp", "model-context-protocol", "claude", "ai", "llm", "primeng", "primereact", "primevue", "primeuix"],
+    "description": "Model Context Protocol (MCP) server for css-prime",
+    "keywords": ["css-prime", "mcp", "model-context-protocol", "ai", "llm"],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -41,6 +41,6 @@
         "zod": "^3.25.76"
     },
     "engines": {
-        "node": ">=12.11.0"
+        "node": ">=24 <25"
     }
 }

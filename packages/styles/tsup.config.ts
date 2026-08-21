@@ -3,16 +3,18 @@ import { defineConfig } from 'tsup';
 
 const isProduction = process.env.NODE_ENV === 'production';
 
-const entry = globSync('src/**/index.ts').reduce((acc: Record<string, string>, file: string) => {
-    const name = file
-        .replace(/\\/g, '/')
-        .replace(/^src\//, '')
-        .replace(/\.ts$/, '');
+const entry = globSync('src/**/index.ts')
+    .filter((file) => file !== 'src/index.ts')
+    .reduce((acc: Record<string, string>, file: string) => {
+        const name = file
+            .replace(/\\/g, '/')
+            .replace(/^src\//, '')
+            .replace(/\.ts$/, '');
 
-    acc[name] = file;
+        acc[name] = file;
 
-    return acc;
-}, {});
+        return acc;
+    }, {});
 
 export default defineConfig([
     {
@@ -23,7 +25,7 @@ export default defineConfig([
         minify: isProduction ? 'terser' : false,
         sourcemap: isProduction,
         splitting: false,
-        clean: isProduction,
+        clean: false,
         terserOptions: {
             mangle: {
                 reserved: ['theme', 'style', 'css']

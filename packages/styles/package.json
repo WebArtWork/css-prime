@@ -1,9 +1,9 @@
 {
     "name": "@wawjs/css-prime-styles",
-    "version": "2.0.3",
+    "version": "1.0.0",
     "author": "Web Art Work",
-    "description": "Styles utilities for PrimeUI Libraries",
-    "keywords": ["styles", "css", "style utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "description": "Framework-neutral component style definitions for css-prime",
+    "keywords": ["css-prime", "styles", "css", "style utilities"],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -36,13 +36,17 @@
     "scripts": {
         "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
         "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
-        "build:package": "pnpm run build:prebuild && tsup",
+        "build:package": "pnpm run build:prebuild && pnpm run build:clean && tsup",
         "build:dev:package": "pnpm run build:prebuild && tsup --watch",
+        "build:clean": "rimraf dist",
         "build:prebuild": "node ./scripts/prebuild.mjs",
         "type:check": "tsc --noEmit",
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
         "@wawjs/css-prime-styled": "workspace:^"
+    },
+    "engines": {
+        "node": ">=24 <25"
     }
 }

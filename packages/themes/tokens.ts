@@ -1,4 +1,4 @@
-/***************** PrimeUIX Tokens (Auto-Generated) *****************/
+/***************** css-prime Tokens (Auto-Generated) *****************/
 export interface TokenMetaData {
     description: string;
     tokens: {

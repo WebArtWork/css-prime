@@ -1,9 +1,9 @@
 {
     "name": "@wawjs/css-prime-locale",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "author": "Web Art Work",
-    "description": "Locale utilities for PrimeUI Libraries",
-    "keywords": ["locale", "internationalization", "i18n", "translation", "localization", "utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "description": "Framework-neutral localization utilities for css-prime",
+    "keywords": ["css-prime", "locale", "internationalization", "i18n", "translation", "localization", "utilities"],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -40,6 +40,6 @@
         "@wawjs/css-prime-utils": "workspace:^"
     },
     "engines": {
-        "node": ">=12.11.0"
+        "node": ">=24 <25"
     }
 }

@@ -1,7 +1,8 @@
 # NOTICE
 
 css-prime is derived from the MIT-licensed [PrimeUIX](https://github.com/primefaces/primeuix) codebase
-(baseline: upstream version `0.7.0`, tagged in this repository as `primeuix-mit-0.7.0`).
+(baseline: upstream version `0.7.0`). The baseline commit and a permanent
+`primeuix-mit-0.7.0` Git tag must be recorded before the first public release.
 
 The original PrimeUIX repository has since been archived by PrimeTek Informatics as part of a transition
 to PrimeUI. All code in that archived repository remains MIT licensed, and this project continues under

@@ -1,9 +1,9 @@
 {
     "name": "@wawjs/css-prime-headless",
-    "version": "0.0.0-alpha.1",
+    "version": "0.1.0",
     "author": "Web Art Work",
-    "description": "Headless utilities for PrimeUI Libraries",
-    "keywords": ["headless", "primeng", "primereact", "primevue"],
+    "description": "Experimental framework-neutral headless utilities for css-prime",
+    "keywords": ["css-prime", "headless"],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -45,6 +45,6 @@
         "@wawjs/css-prime-utils": "workspace:^"
     },
     "engines": {
-        "node": ">=12.11.0"
+        "node": ">=24 <25"
     }
 }

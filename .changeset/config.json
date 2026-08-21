@@ -2,7 +2,7 @@
     "$schema": "https://unpkg.com/@changesets/config@3.0.4/schema.json",
     "changelog": ["@changesets/changelog-github", { "repo": "WebArtWork/css-prime" }],
     "commit": false,
-    "fixed": [["@wawjs/css-prime-*"]],
+    "fixed": [["@wawjs/css-prime-forms", "@wawjs/css-prime-locale", "@wawjs/css-prime-mcp", "@wawjs/css-prime-motion", "@wawjs/css-prime-styled", "@wawjs/css-prime-styles", "@wawjs/css-prime-themes", "@wawjs/css-prime-utils"]],
     "linked": [],
     "access": "public",
     "baseBranch": "master",

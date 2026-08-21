@@ -14,27 +14,14 @@ const entry = globSync('src/**/index.ts').reduce((acc: Record<string, string>, f
     return acc;
 }, {});
 
-export default defineConfig([
-    {
-        entry: ['src/index.ts'],
-        format: ['esm'],
-        outDir: 'dist',
-        dts: true,
-        external: [/^@wawjs\/css-prime-(.*)$/],
-        minify: isProduction,
-        sourcemap: isProduction,
-        splitting: false,
-        clean: isProduction
-    },
-    {
-        entry,
-        format: ['esm'],
-        outDir: 'dist',
-        dts: true,
-        external: [/^@wawjs\/css-prime-(.*)$/],
-        minify: isProduction,
-        sourcemap: isProduction,
-        splitting: false,
-        clean: isProduction
-    }
-]);
+export default defineConfig({
+    entry,
+    format: ['esm'],
+    outDir: 'dist',
+    dts: true,
+    external: [/^@wawjs\/css-prime-(.*)$/],
+    minify: isProduction,
+    sourcemap: isProduction,
+    splitting: false,
+    clean: isProduction
+});

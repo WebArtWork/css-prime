@@ -1,9 +1,9 @@
 {
     "name": "@wawjs/css-prime-forms",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "author": "Web Art Work",
-    "description": "Forms utilities for PrimeUI Libraries",
-    "keywords": ["forms", "validation", "utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "description": "Framework-neutral forms utilities for css-prime",
+    "keywords": ["css-prime", "forms", "validation", "utilities"],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -43,6 +43,6 @@
         "superstruct": "^2.0.2"
     },
     "engines": {
-        "node": ">=12.11.0"
+        "node": ">=24 <25"
     }
 }

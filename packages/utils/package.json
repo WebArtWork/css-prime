@@ -1,9 +1,9 @@
 {
     "name": "@wawjs/css-prime-utils",
-    "version": "0.6.4",
+    "version": "1.0.0",
     "author": "Web Art Work",
-    "description": "Utility functions and helpers for PrimeUI Libraries",
-    "keywords": ["utilities", "helpers", "primeng", "primereact", "primevue", "primeuix"],
+    "description": "Framework-neutral utility functions and helpers for css-prime",
+    "keywords": ["css-prime", "utilities", "helpers"],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -42,6 +42,6 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "engines": {
-        "node": ">=12.11.0"
+        "node": ">=24 <25"
     }
 }

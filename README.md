@@ -12,15 +12,28 @@ See [ROADMAP.md](./ROADMAP.md) for the current state of the project and what's p
 
 ## Packages
 
-- `forms`
-- `headless`
-- `locale`
-- `mcp`
-- `motion`
-- `styled`
-- `styles`
-- `themes`
-- `utils`
+- `@wawjs/css-prime-forms`
+- `@wawjs/css-prime-headless` (experimental, `0.1.0`)
+- `@wawjs/css-prime-locale`
+- `@wawjs/css-prime-mcp`
+- `@wawjs/css-prime-motion`
+- `@wawjs/css-prime-styled`
+- `@wawjs/css-prime-styles`
+- `@wawjs/css-prime-themes`
+- `@wawjs/css-prime-utils`
+
+## Installation
+
+Install only the packages your integration needs. For example:
+
+```bash
+pnpm add @wawjs/css-prime-styled @wawjs/css-prime-styles @wawjs/css-prime-themes @wawjs/css-prime-utils
+```
+
+The first stable css-prime package set is `1.0.0`. The `headless` package remains
+experimental at `0.1.0`. See [RELEASING.md](./RELEASING.md)
+for the manual npm release process and [NOTICE.md](./NOTICE.md) for the PrimeUIX `0.7.0`
+compatibility baseline.
 
 ## Attribution
 

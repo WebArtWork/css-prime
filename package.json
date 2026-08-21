@@ -3,7 +3,7 @@
     "version": "0.7.0",
     "private": true,
     "description": "css-prime is an independent MIT-licensed continuation of the archived PrimeUIX codebase, maintained by Web Art Work.",
-    "author": "PrimeTek Informatics",
+    "author": "Web Art Work",
     "contributors": ["PrimeTek Informatics", "Web Art Work"],
     "repository": {
         "type": "git",
@@ -19,8 +19,11 @@
         "clean": "npx rimraf --glob **/node_modules **/dist",
         "init": "pnpm install && husky",
         "link": "pnpm --filter \"./packages/*\" dev:link",
-        "release": "pnpm run build && pnpm -r publish --filter \"./packages/*\" --no-git-checks --report-summary",
-        "release:beta": "pnpm run build && pnpm -r publish --filter \"./packages/*\" --no-git-checks --report-summary --tag beta",
+        "changeset": "changeset",
+        "version:packages": "changeset version",
+        "release:check": "pnpm run lint && pnpm run format:check && pnpm run type:check && pnpm run test && pnpm run build",
+        "release": "pnpm run release:check && pnpm -r publish --filter \"./packages/*\" --no-git-checks --report-summary",
+        "release:alpha": "pnpm run release:check && pnpm --filter @wawjs/css-prime-headless publish --no-git-checks --report-summary --tag alpha",
         "build": "cross-env NODE_ENV=production pnpm run build:check && pnpm run build:packages",
         "build:dev": "cross-env NODE_ENV=development pnpm run build:dev:packages",
         "build:check": "pnpm run format:check && pnpm run security:check",
@@ -77,16 +80,10 @@
         "access": "public"
     },
     "engines": {
-        "node": ">=18"
+        "node": ">=24 <25"
     },
     "packageManager": "pnpm@9.6.0",
     "lint-staged": {
         "**/*.{js,mjs,ts,mts,d.ts,yml}": ["prettier --write"]
-    },
-    "pnpm": {
-        "overrides": {
-            "@hono/node-server": "^1.19.10",
-            "path-to-regexp": "^8.4.0"
-        }
     }
 }
