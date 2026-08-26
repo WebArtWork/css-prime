@@ -1,9 +1,13 @@
 {
     "name": "@wawjs/css-prime-utils",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Web Art Work",
     "description": "Framework-neutral utility functions and helpers for css-prime",
-    "keywords": ["css-prime", "utilities", "helpers"],
+    "keywords": [
+        "css-prime",
+        "utilities",
+        "helpers"
+    ],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -32,7 +36,11 @@
         "access": "public"
     },
     "sideEffects": false,
-    "files": ["dist", "README.md", "LICENSE"],
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
     "scripts": {
         "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
         "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
