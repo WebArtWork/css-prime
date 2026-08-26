@@ -127,6 +127,9 @@ export * as InputTextStyle from '@wawjs/css-prime-styles/inputtext';
 // Knob
 export * as KnobStyle from '@wawjs/css-prime-styles/knob';
 
+// Link
+export * as LinkStyle from '@wawjs/css-prime-styles/link';
+
 // Listbox
 export * as ListboxStyle from '@wawjs/css-prime-styles/listbox';
 
