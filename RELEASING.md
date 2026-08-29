@@ -1,7 +1,9 @@
 # Releasing css-prime
 
 css-prime packages are published manually to npm under the public `@wawjs` scope.
-GitHub Actions is not used to publish releases.
+GitHub Actions is not used to publish releases. The monorepo uses npm workspaces
+(not pnpm); `npm publish --workspaces` publishes every non-private package under
+`packages/*` and automatically skips the private `playground` app.
 
 ## Version policy
 
@@ -16,17 +18,17 @@ version instead.
 ## Release checklist
 
 1. Confirm `npm whoami` identifies an account with publish access to `@wawjs`.
-2. Create a changeset for the change: `pnpm changeset`.
-3. Apply the release versions and changelog: `pnpm version:packages`.
+2. Create a changeset for the change: `npm run changeset`.
+3. Apply the release versions and changelog: `npm run version:packages`.
 4. Review and commit the generated version and changelog changes.
-5. Run the full release gate: `pnpm release:check`.
+5. Dry-run the full gate and publish: `npm run publish:dry-run`.
 6. Inspect each package with `npm pack --dry-run` from its package directory.
-7. Publish manually: `pnpm release`.
+7. Publish for real: `npm run publish`.
 8. Verify the package/version/tag on npm and create the matching Git tag and GitHub release notes.
 
 For later prereleases of the experimental headless package, use an unused prerelease
-version and publish only that package with `pnpm release:alpha`. npm versions are immutable,
-so never reuse a published version number.
+version and publish only that package with `npm run publish:alpha`. npm versions are
+immutable, so never reuse a published version number.
 
 ## First release prerequisites
 

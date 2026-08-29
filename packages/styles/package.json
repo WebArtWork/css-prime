@@ -43,17 +43,17 @@
         "LICENSE"
     ],
     "scripts": {
-        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
-        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
-        "build:package": "pnpm run build:prebuild && pnpm run build:clean && tsup",
-        "build:dev:package": "pnpm run build:prebuild && tsup --watch",
+        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ npm run build:package",
+        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ npm run build:dev:package",
+        "build:package": "npm run build:prebuild && npm run build:clean && tsup",
+        "build:dev:package": "npm run build:prebuild && tsup --watch",
         "build:clean": "rimraf dist",
         "build:prebuild": "node ./scripts/prebuild.mjs",
         "type:check": "tsc --noEmit",
-        "dev:link": "pnpm link --global && npm link"
+        "dev:link": "npm link"
     },
     "dependencies": {
-        "@wawjs/css-prime-styled": "workspace:^"
+        "@wawjs/css-prime-styled": "^1.1.0"
     },
     "engines": {
         "node": ">=24 <25"

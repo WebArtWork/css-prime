@@ -10,11 +10,11 @@
     },
     "devDependencies": {
         "vite": "^6.1.0",
-        "@wawjs/css-prime-forms": "workspace:*",
-        "@wawjs/css-prime-locale": "workspace:*",
-        "@wawjs/css-prime-styled": "workspace:*",
-        "@wawjs/css-prime-styles": "workspace:*",
-        "@wawjs/css-prime-themes": "workspace:*",
-        "@wawjs/css-prime-utils": "workspace:*"
+        "@wawjs/css-prime-forms": "^1.1.0",
+        "@wawjs/css-prime-locale": "^1.1.0",
+        "@wawjs/css-prime-styled": "^1.1.0",
+        "@wawjs/css-prime-styles": "^1.1.0",
+        "@wawjs/css-prime-themes": "^1.1.0",
+        "@wawjs/css-prime-utils": "^1.1.0"
     }
 }

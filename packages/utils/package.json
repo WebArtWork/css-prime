@@ -42,12 +42,12 @@
         "LICENSE"
     ],
     "scripts": {
-        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
-        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
-        "build:package": "pnpm run build:prebuild && tsup",
-        "build:dev:package": "pnpm run build:prebuild && tsup --watch",
+        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ npm run build:package",
+        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ npm run build:dev:package",
+        "build:package": "npm run build:prebuild && tsup",
+        "build:dev:package": "npm run build:prebuild && tsup --watch",
         "build:prebuild": "node ./scripts/prebuild.mjs",
-        "dev:link": "pnpm link --global && npm link"
+        "dev:link": "npm link"
     },
     "engines": {
         "node": ">=24 <25"

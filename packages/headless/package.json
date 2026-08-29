@@ -34,15 +34,15 @@
     "sideEffects": false,
     "files": ["dist", "README.md", "LICENSE"],
     "scripts": {
-        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
-        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
-        "build:package": "pnpm run test && tsup",
+        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ npm run build:package",
+        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ npm run build:dev:package",
+        "build:package": "npm run test && tsup",
         "build:dev:package": "tsup --watch",
         "test": "jest --config=../../jest.config.ts",
-        "dev:link": "pnpm link --global && npm link"
+        "dev:link": "npm link"
     },
     "dependencies": {
-        "@wawjs/css-prime-utils": "workspace:^"
+        "@wawjs/css-prime-utils": "^1.1.0"
     },
     "engines": {
         "node": ">=24 <25"

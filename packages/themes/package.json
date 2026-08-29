@@ -57,10 +57,10 @@
         "LICENSE"
     ],
     "scripts": {
-        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
-        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
-        "build:package": "pnpm run type:check && pnpm run build:tokens && pnpm run build:clean && pnpm run build:esm && pnpm run build:umd && pnpm run build:tokens:bundle && pnpm run build:postbuild",
-        "build:dev:package": "pnpm run build:tokens && pnpm run build:esm --watch && pnpm run build:postbuild",
+        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ npm run build:package",
+        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ npm run build:dev:package",
+        "build:package": "npm run type:check && npm run build:tokens && npm run build:clean && npm run build:esm && npm run build:umd && npm run build:tokens:bundle && npm run build:postbuild",
+        "build:dev:package": "npm run build:tokens && npm run build:esm -- --watch && npm run build:postbuild",
         "build:clean": "rimraf dist umd tokens",
         "build:esm": "cross-env CSS_PRIME_BUILD_TARGET=esm tsup",
         "build:postbuild": "node ./scripts/postbuild.mjs",
@@ -68,10 +68,10 @@
         "build:tokens:bundle": "cross-env CSS_PRIME_BUILD_TARGET=tokens tsup",
         "build:umd": "node ./scripts/build-umd.mjs",
         "type:check": "tsc --noEmit",
-        "dev:link": "pnpm link --global && npm link"
+        "dev:link": "npm link"
     },
     "dependencies": {
-        "@wawjs/css-prime-styled": "workspace:^"
+        "@wawjs/css-prime-styled": "^1.1.0"
     },
     "engines": {
         "node": ">=24 <25"
